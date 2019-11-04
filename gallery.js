@@ -2,6 +2,14 @@ function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
 
+function mplan(){
+  document.getElementById("myModal4").style.display="block";
+}
+
+function closeMasterPlan(){
+  document.getElementById("myModal4").style.display="none";
+}
+
 // Close the Modal
 function closeModal() {
   document.getElementById("myModal").style.display = "none";

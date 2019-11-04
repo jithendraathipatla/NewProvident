@@ -12,6 +12,15 @@
 .home :active{
   color:black !important
 }
+.modal2-content {
+  /* position: relative; */
+  background-color: #fefefe;
+  margin: auto;
+  padding: 4px;
+  width: 90%;
+  max-width: 1200px;
+  margin-top: 85px;
+}
 
 .carousel-captiona{
   position: absolute;
@@ -762,7 +771,7 @@ a#nav{
     display: flex!important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
-    margin-left: 57px !important;
+    margin-left: 120px !important;
 }
 }
 
@@ -955,7 +964,7 @@ rounded-circle:hover{
  img {
   image-rendering: auto;
   image-rendering: crisp-edges;
-  image-rendering: pixelated;
+  
 }
 
 .youtubeFrame{
@@ -971,6 +980,10 @@ rounded-circle:hover{
 
 iframe{
   border: none;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  line-height: 1;
 }
 
 
