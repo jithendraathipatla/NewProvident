@@ -1,12 +1,12 @@
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color:#565F65;
+    color:white;
     margin-right:25px;
 }
 .carousel-inner {
   position: relative;
   width: 100%;
   overflow: hidden;
-  margin-top: 43px;
+  margin-top: 20px;
 }
 
 .home :active{
@@ -19,6 +19,9 @@
   color: white;
   left:15vh;
   text-align: justify;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 5px;
+  padding:15px;
 }
 @media (min-width: 768px){
 .col-md-2 {
@@ -50,7 +53,7 @@ table.bordered td:hover {
 background-color: #06c;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color:#565F65;
+    color:white;
     margin-right:25px;
 }
 .navbar-dark .navbar-nav .nav-link:hover{
