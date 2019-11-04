@@ -196,7 +196,7 @@ img.adjusting_image{
   height:855px !important;
 }
 img.nav_image{
-  margin-left:-102px !important;
+  margin-left:-93px !important;
 }
 .carousel-inner h1{
  font-size: 26px;
@@ -770,6 +770,10 @@ a#nav{
 .container2 {
     display: inherit !important;
 }
+.w-100 {
+  width: 100%!important;
+  height: 364px;
+}
 .youtubeFrame{
   display: block !important;
   padding: 10px 0px 10px 22px !important;
@@ -779,7 +783,7 @@ a#nav{
 }
 .carousel-captiona {
   position: absolute;
-  top: -322px;
+  top: -236px;
   color: white;
   left: 11vh;
   text-align: justify;
@@ -803,7 +807,7 @@ a#nav{
 .fixed-top {
   padding: 0px;
   padding-bottom: 0px !important;
-  background: #000 !important;
+  background: rgb(25, 118, 210);
 }
 .abcd {
   margin-top: 5px;
